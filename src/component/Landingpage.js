@@ -7,8 +7,8 @@ import { faLightbulb, faMapMarkedAlt, faHeadset, faLocationDot, faCalendar, faCl
 import { faPlane, faHotel, faCar, faUmbrellaBeach } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Landingpage.css';
-import AnimatedSection from '/home/uki-student/mine/freshmyf-main/src/component/Ani.js';
-import ImageGallery from '/home/uki-student/mine/freshmyf-main/src/component/MYL.js'; 
+import AnimatedSection from './Ani.js';
+import ImageGallery from './MYL.js'; 
 
 // Import images
 import photo9 from '../component/photos/hindu 3.jpg';
@@ -27,7 +27,7 @@ import photo30 from '../component/photos/Screenshot from 2024-09-09 11-33-31.png
 import photo35 from '../component/photos/Screenshot from 2024-09-09 11-34-19.png';
 import photo34 from '../component/photos/7b77cb4af1b7e380fa9a1f7acc0dd24d.jpg';
 
-import photo33 from '/home/uki-student/mine/freshmyf-main/src/component/photos/om.png';
+import photo33 from '../component/photos/om.png';
 export default function LandingPage() {
   const navigate = useNavigate();
   const [trips, setTrips] = useState([]);
